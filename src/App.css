@@ -1,0 +1,11 @@
+.App {
+  min-height: 100vh;
+  background-image: url(../src/assets/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #a3b2dc;
+  display: grid;
+  place-content: center;
+  background-position:  center top -1rem;
+
+}
