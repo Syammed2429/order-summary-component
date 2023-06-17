@@ -16,7 +16,9 @@ export const OrderSummary: FC = () => {
                             <Image
                                 className='image-round'
                                 boxSize='100%'
-                                src={musicImage} />
+                                src={musicImage}
+                                alt='some image'
+                            />
                         </CardHeader>
                         <CardBody >
                             <Box display='flex' flexDirection='column' alignItems='center' justifyContent='center'>
@@ -39,7 +41,9 @@ export const OrderSummary: FC = () => {
                                     <Image
                                         mr={5}
                                         objectFit='cover'
-                                        src={musicIcon} />
+                                        src={musicIcon}
+                                        alt='some image'
+                                    />
                                     <Box>
                                         <Text as='b'>Annual Plan</Text>
                                         <Text
